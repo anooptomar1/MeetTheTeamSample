@@ -26,15 +26,16 @@ class MainViewController: BaseViewController, UICollectionViewDelegate, UICollec
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        ServerManager.shared.jsonToObjectArray { [weak self](teams) in
+            self?.teamData = teams
+            DispatchQueue.main.async {
+                self?.collectionV.reloadData()
+            }
+        }
         collectionV.delegate = self
         collectionV.dataSource = self
         collectionV.register(TeamCell.self, forCellWithReuseIdentifier: "cell")
         self.view.addSubview(collectionV)
-        
-        ServerManager.shared.jsonToObjectArray { [weak self](teams) in
-            self?.teamData = teams
-            self?.collectionV.reloadData()
-        }
         
         NSLayoutConstraint.activate([
             collectionV.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),

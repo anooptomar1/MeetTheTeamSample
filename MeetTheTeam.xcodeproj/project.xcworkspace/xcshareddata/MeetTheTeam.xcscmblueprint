@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B4C537E7EDE46288FC25FA5018BE07FCEB6B74CF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B4C537E7EDE46288FC25FA5018BE07FCEB6B74CF" : 9223372036854775807,
+    "F8D5CCC0B848103AC2897358123470ADD4BF6303" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6F0BC59B-7BE9-4856-AE09-ABE59594AF64",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B4C537E7EDE46288FC25FA5018BE07FCEB6B74CF" : "Source\/",
+    "F8D5CCC0B848103AC2897358123470ADD4BF6303" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MeetTheTeam",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MeetTheTeam.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/anooptomar1\/MeetTheTeamSample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B4C537E7EDE46288FC25FA5018BE07FCEB6B74CF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/anooptomar\/bt-car.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F8D5CCC0B848103AC2897358123470ADD4BF6303"
+    }
+  ]
+}
